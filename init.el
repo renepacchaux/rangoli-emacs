@@ -1,5 +1,5 @@
 ;;; Straight bootstrap
-;; https://github.com/raxod502/straight.el
+;;https://github.com/raxod502/straight.el
 
 (setq straight-repository-branch "develop"
       straight-enable-use-package-integration nil)
@@ -33,12 +33,12 @@
 (require 'rangoli-ui-theme)
 (require 'rangoli-ui-font)
 (require 'rangoli-snippet)
-(require 'rangoli-org)
-(require 'rangoli-markdown)
+;;(require 'rangoli-org)
+;;(require 'rangoli-markdown)
 (require 'rangoli-pdf)
 
 (require 'rangoli-timer)
-(require 'rangoli-websearch)
+;;(require 'rangoli-websearch)
 (require 'rangoli-emoji)
 
 (require 'rangoli-reading)
@@ -53,11 +53,11 @@
 (require 'rangoli-docker)
 (require 'rangoli-tramp)
 (require 'rangoli-elisp)
-(require 'rangoli-rust)
-(require 'rangoli-cpp)
+;;(require 'rangoli-rust)
+;;(require 'rangoli-cpp)
 (require 'rangoli-python)
-(require 'rangoli-swift)
-(require 'rangoli-java)
+;;(require 'rangoli-swift)
+;;(require 'rangoli-java)
 
 ;; You probably /do not/ want these
 
